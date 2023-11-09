@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ee.mainor.classroom.ClassroomApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-08T21:07:53" hostname="DESKTOP-VBN75PN" time="1.868">
+  <properties/>
+  <testcase name="contextLoads()" classname="ee.mainor.classroom.ClassroomApplicationTests" time="1.868"/>
+  <system-out><![CDATA[23:07:45.868 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ee.mainor.classroom.ClassroomApplicationTests]: ClassroomApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:07:46.060 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ee.mainor.classroom.ClassroomApplication for test class ee.mainor.classroom.ClassroomApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-11-08T23:07:46.922+02:00  INFO 4768 --- [    Test worker] e.m.classroom.ClassroomApplicationTests  : Starting ClassroomApplicationTests using Java 19.0.2 with PID 4768 (started by Victoria in C:\Users\Victoria\Desktop\mainor-class-session_3_class_game_postgres)
+2023-11-08T23:07:46.928+02:00  INFO 4768 --- [    Test worker] e.m.classroom.ClassroomApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-11-08T23:07:48.685+02:00  INFO 4768 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-11-08T23:07:48.837+02:00  INFO 4768 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 2 JDBC repository interfaces.
+2023-11-08T23:07:49.806+02:00  INFO 4768 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-08T23:07:50.281+02:00  INFO 4768 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11381415
+2023-11-08T23:07:50.286+02:00  INFO 4768 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-08T23:07:50.801+02:00  INFO 4768 --- [    Test worker] liquibase.database                       : Set default schema name to public
+2023-11-08T23:07:51.688+02:00  INFO 4768 --- [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2023-11-08T23:07:51.707+02:00  INFO 4768 --- [    Test worker] liquibase.executor                       : Changelog query completed.
+Database is up to date, no changesets to execute
+2023-11-08T23:07:53.446+02:00  INFO 4768 --- [    Test worker] e.m.classroom.ClassroomApplicationTests  : Started ClassroomApplicationTests in 7.049 seconds (process running for 9.508)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
